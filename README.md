@@ -1,5 +1,5 @@
 <h2 align="center">Olá! 👋 Me chamo Renan e sou um Desenvolvedor Full Stack.</h2>
-<p align="center">Sou apaixonado por tecnologia e desenvolvimento de software. Estou focado em desenvolvimento Full Stack, especialmente com TypeScript, React e MySQL. Gosto de aprender coisas novas e nunca desisto de um desafio.</p>
+<p align="center">Sou apaixonado por tecnologia e desenvolvimento de software. Estou focado em desenvolvimento Full Stack, com TypeScript, React e MySQL. Gosto de aprender coisas novas e nunca desisto de um desafio.</p>
 
 ###
 
@@ -56,6 +56,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="GitHub logo" />
   <img width="12" />
   <img src="https://www.cdnlogo.com/logos/t/58/tailwindcss.svg" height="30" alt="TailwindCSS logo" />
+  <img width="12" />
+    <img src="https://www.cdnlogo.com/logos/m/65/material-ui.svg" height="30" alt="Material logo" />
+  <img width="12" />
 </div>
 
 ## Conhecimentos Básicos:
@@ -89,7 +92,7 @@
 
 ---
 
-⭐️ Deixe uma estrela se você gostou do meu perfil! Vamos nos conectar! 😊
+⭐️ Deixe uma estrela se você gostou do meu perfil! ⭐️
 
 </div>
 
