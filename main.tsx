@@ -5,6 +5,7 @@ const App: React.FC = () => {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
       <h1>Portfólio em Desenvolvimento</h1>
+      <p>GitHub Desktop</p>
     </div>
   );
 };
