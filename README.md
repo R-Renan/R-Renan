@@ -76,15 +76,47 @@
 
 </div>
 
-###
+### Configurações do VSCode:
+<div align="center">
+## Disponibilizei o meu arquivo `settings.json`
+
+1. **Abra o Visual Studio Code**.
+2. **Acesse as Configurações em JSON**:
+   - Clique em **Configurações** > **Abrir Configurações (JSON)** ou use `Ctrl` + `Shift` + `P` e selecione "Preferences: Open Settings (JSON)".
+3. **Substitua o Conteúdo**:
+   - Cole o novo conteúdo no arquivo `settings.json`.
+4. **Salve o Arquivo** (`Ctrl` + `S`).
+
+### [`settings.json`](https://github.com/R-Renan/R-Renan/blob/main/settings.json)
+
+## Extensões do Visual Studio Code
+
+- Color Highlight
+- Color Picker
+- Discord Presence
+- ESLint
+- Error Lens
+- Expo Tools
+- GitHub Pull Request
+- GitHub Repositories
+- GitLens
+- Material Icon Theme
+- Min Theme
+- Path Intellisense
+- Prettier
+- React Native Tools
+- Tailwind CSS Intellisense
+
+</div>
+
 
 <div align="center">
 
 ### Um pouco mais sobre mim.
 
-- 🎮 Gosto de jogos online.
-- 🎈 Busco aprimorar minhas habilidades com Web Design.
-- 🌱 Estou aprendendo mais sobre inteligência artificial e Automações de Bot.
+- * Gosto de jogos online.
+- * Busco aprimorar minhas habilidades com Web Design.
+- * Estou aprendendo mais sobre inteligência artificial e Automações de Bot.
 
   <a href="https://www.linkedin.com/in/devrenan-rodrigues/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn logo" />
