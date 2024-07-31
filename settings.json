@@ -1,0 +1,214 @@
+{
+  // Configura o Emmet para usar o perfil JSX para arquivos JavaScript
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  // Define o editor de início como um novo arquivo não salvo
+  "workbench.startupEditor": "newUntitledFile",
+  // Define o tamanho da fonte do editor
+  "editor.fontSize": 16,
+  // Habilita sugestões automáticas de importações para JavaScript
+  "javascript.suggest.autoImports": true,
+  // Atualiza importações automaticamente quando arquivos são movidos
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Adiciona regras verticais para facilitar a leitura do código
+  "editor.rulers": [
+    80, // Linha de regra na coluna 80
+    120 // Linha de regra na coluna 120
+  ],
+  // Ignora recomendações de extensões
+  "extensions.ignoreRecommendations": true,
+  // Desativa o log do servidor TypeScript
+  "typescript.tsserver.log": "off",
+  // Associações de arquivos para diferentes tipos de arquivos
+  "files.associations": {
+    ".sequelizerc": "javascript", // Associa .sequelizerc com JavaScript
+    ".stylelintrc": "json", // Associa .stylelintrc com JSON
+    "*.tsx": "typescriptreact", // Associa arquivos .tsx com TypeScript React
+    ".env.*": "dotenv", // Associa arquivos .env com Dotenv
+    ".prettierrc": "json" // Associa .prettierrc com JSON
+  },
+  // Desativa dicas de parâmetros no editor
+  "editor.parameterHints.enabled": false,
+  // Destaca a linha do cursor no painel lateral
+  "editor.renderLineHighlight": "gutter",
+  // Define a altura da linha do editor
+  "editor.lineHeight": 26,
+  // Associa ícones específicos para diferentes tipos de arquivos com o Material Icon Theme
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  // Define que importações não devem ser atualizadas automaticamente quando arquivos são movidos em TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // Associa ícones específicos para diferentes arquivos com o Material Icon Theme
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  // Define o pacote de ícones ativo do Material Icon Theme
+  "material-icon-theme.activeIconPack": "nest",
+  // Define a seleção de sugestões do editor como a primeira sugestão
+  "editor.suggestSelection": "first",
+  // Desativa a confirmação ao excluir arquivos no explorador
+  "explorer.confirmDelete": false,
+  // Desativa o código Lens para mudanças recentes no GitLens
+  "gitlens.codeLens.recentChange.enabled": false,
+  // Desativa o alerta de saída no terminal integrado
+  "terminal.integrated.showExitAlert": false,
+  // Formata automaticamente arquivos Prisma ao salvar
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  // Habilita sugestões automáticas de importações para TypeScript
+  "typescript.suggest.autoImports": true,
+  // Define variáveis de ambiente para o terminal integrado no macOS
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  // Define o formato da etiqueta do editor como curto
+  "workbench.editor.labelFormat": "short",
+  // Habilita ligaduras de fonte no editor
+  "editor.fontLigatures": true,
+  // Inclui JavaScript como linguagem para o Emmet como React
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Define o conjunto de recursos do Live Share como insiders
+  "liveshare.featureSet": "insiders",
+  // Associa ícones específicos para diferentes pastas com o Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  // Desativa a aceitação automática de sugestões ao pressionar o caractere de confirmação
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  // Desativa compactação de pastas no explorador
+  "explorer.compactFolders": false,
+  // Habilita o commit inteligente no Git
+  "git.enableSmartCommit": true,
+  // Desativa suporte à acessibilidade no editor
+  "editor.accessibilitySupport": "off",
+  // Desativa a confirmação ao arrastar e soltar arquivos no explorador
+  "explorer.confirmDragAndDrop": false,
+  // Define o tamanho da fonte do terminal integrado
+  "terminal.integrated.fontSize": 14,
+  // Define a fonte do terminal integrado
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  // Habilita decoradores de cor no editor
+  "editor.colorDecorators": true,
+  // Executa ações de código ao salvar, explicitamente para ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // Desativa a coloração semântica no editor
+  "editor.semanticHighlighting.enabled": false,
+  // Habilita breadcrumbs no editor
+  "breadcrumbs.enabled": true,
+  // Define a fonte do editor
+  "editor.fontFamily": "JetBrains Mono",
+  // Desativa o código Lens de autores no GitLens
+  "gitlens.codeLens.authors.enabled": false,
+  // Define o tamanho da guia no editor
+  "editor.tabSize": 2,
+  // Define o modo de confiança para arquivos não confiáveis
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  // Exclui certos arquivos e pastas do explorador de arquivos
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  // Desativa o código Lens no GitLens
+  "gitlens.codeLens.enabled": false,
+  // Desativa o minimapa no editor
+  "editor.minimap.enabled": false,
+  // Define o modo de atualização do VSCode como início
+  "update.mode": "start",
+  // Desativa a aceleração de GPU no terminal integrado
+  "terminal.integrated.gpuAcceleration": "off",
+  // Define o perfil padrão do terminal integrado no macOS
+  "terminal.integrated.defaultProfile.osx": "fish",
+  // Define o formatador padrão para JSONC
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Define o comportamento do hint para arquivos de editor vazio
+  "workbench.editor.empty.hint": "hidden",
+  // Desativa setas de ocultação de símbolos no explorador
+  "symbols.hidesExplorerArrows": false,
+  // Define o tema de ícones do trabalho como Material Icon Theme
+  "workbench.iconTheme": "material-icon-theme",
+  // Habilita a autofetch no Git
+  "git.autofetch": true,
+  // Define a localização da barra de atividades como superior
+  "workbench.activityBar.location": "top",
+  // Define variáveis de ambiente para o terminal integrado no Windows
+  "terminal.integrated.env.windows": {},
+  // Define o conjunto de recursos do Console Ninja como Community
+  "console-ninja.featureSet": "Community",
+  // Desativa o aviso de múltiplas linhas ao colar no terminal integrado
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  // Define o estilo de final de linha como LF (line feed)
+  "prettier.endOfLine": "lf",
+  // Habilita formatação ao salvar
+  "editor.formatOnSave": true,
+  // Define o formatador padrão como Prettier para diferentes tipos de arquivos
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Define o caminho do executável do terminal externo para o Windows
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  // Define o caminho para validação do PHP
+  "php.validate.executablePath": "",
+  // Define configurações ignoradas para sincronização de configurações
+  "settingsSync.ignoredSettings": [],
+  // Define o tema de cor do trabalho como Min Dark
+  "workbench.colorTheme": "Min Dark",
+  // Define o formatador padrão para XML
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
+}
