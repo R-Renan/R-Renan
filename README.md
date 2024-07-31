@@ -7,7 +7,7 @@
 
 ###
 
-### Projetos em Destaque:
+### Projetos:
 
 - [**Task Void**](#): App Mobile para lançamentos de Tarefas Diarias; Com notificações, agendamento e muito mais.
 - [**Dash Void**](#): Aplicação em React desenvolvida com o Curso de React + TypeScript + Material UI.
